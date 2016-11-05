@@ -1,0 +1,32 @@
+.div-menu-bar{
+	font-style: 'Lato', Tahoma;
+	/*border: 20px;*/
+	float: right;
+	background-color: #333;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-decoration: none;
+	display: inline;
+	border-bottom-width: medium;
+}
+
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+.menu-bar {
+
+	list-style: none;
+/*	position:fixed; */
+	text-decoration: none;
+}
+
+.menu-bar li {
+	display: inline-block;
+	text-decoration: none;
+	font-style: 'Lato', Tahoma;
+	padding: 14px 16px;
+	border: 1px solid black;
+	color: white;
+}
