@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>
-		Contact Me!
+		Jacob Vu - Contact Me!
 	</title>
 	<link type= "text/css" rel = "stylesheet" href = "main.css"/>
 	<meta name = "viewport" content = "width=device-wdidth, initial-scale = 1.0">
@@ -10,19 +10,13 @@
 </head>
 <body>
 
-<div class = "row">
-	<div class = "col-2">
-		<a href = "index.html" class = "logo"><h2 id = "logo"> Jacob Vu
-		</h2></a>
-	</div>
-	<div class = "col-3">
-		<nav role = "navigation">
-			<a href = "about.html"> About </a>
-			<a href = "projects.html"> Projects </a>
-			<a href = "contact.html"> Contact </a>
-		</nav>
-	</div>
-</div>
+
+<nav class = "navigation">
+	<a href = "index.html" id = "logo"> Jacob Vu</a>
+	<a href = "about.html"> About </a>
+	<a href = "projects.html"> Projects </a>
+	<a href = "contact.html"> Contact </a>
+</nav>
 
 <form id = "contact-form" action = "/" method = "post">
 	<h3> Get in touch </h3>
@@ -30,33 +24,22 @@
 
 <div>
 	<label>
-	<div class = "row">
 		<span> Name (required):</span>
-	</div>
-	<div class = "row">
 		<input placeholder = "Please enter your name" type = "text" tabindex = "1" required autofocus>
-	</div>
-	</label>
-</div>
-<div>
-	<label>
-	<div class = "row">
-		<span> Email (required):</span>
-	</div>
-	<div class = "row">
-		<input placeholder = "Please enter your email" type = "email" tabindex = "2" required>
-	</div>
 	</label>
 </div>
 
 <div>
 	<label>
-	<div class = "row">
+		<span> Email (required):</span>
+		<input placeholder = "Please enter your email" type = "email" tabindex = "2" required>
+	</label>
+</div>
+
+<div>
+	<label>
 		<span> Message (required):</span>
-	</div>
-	<div class = "row">
 		<textarea placeholder = "Include all the details you can" tabindex = "3" required></textarea>
-	</div>
 	</label>
 </div>
 
