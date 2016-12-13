@@ -12,7 +12,10 @@
 body {
 
 	background-color: #EEEEEE;
+	margin: 0;
+	padding: 0;
 }
+
 a {
 	text-decoration: none;
 	color: black;
@@ -53,15 +56,34 @@ img {
 	padding: 50px;
 }
 
-.container {
-	display: block;
+.container-info {
+	display: inline-block;
+	overflow-x: hidden;
+	width: 500px;
 }
 
-.footer p{
-	border-top: 1px solid #d3d3d3;
-	border-bottom: 1px solid #d3d3d3;
-	padding: 10px;
+.container-content,
+.container-footer {
+	display: block;
+	width: 100%;
+	overflow-x: hidden;
 }
+
+.container-content {
+	height: 400px;
+}
+
+.container-footer {
+	height: 150px;
+	background-color: #3c3c3c;
+}
+
+.footer,
+.footer a {
+	margin-top: 50px;
+	color: #cccecb;
+}
+
 
 
 @media all and (max-width: 800px) {
